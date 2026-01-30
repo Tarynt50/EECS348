@@ -5,7 +5,7 @@ char str[100];
 int i, len;
 printf("Enter a string: ");
 gets(str);
-len = strlen(str);
+len = trlen(str);
 for (i = 0; i < len; i++) {
 if (str[i] >= 'a' && str[i] <= 'z') {
 str[i] = str[i] - 'a' + 'A';
